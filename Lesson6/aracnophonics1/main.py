@@ -28,13 +28,13 @@ def play_game():
 
 
 
-#Game Loop
-#run_game()
-#while keep_playing
-# 
-while game:
-  time.sleep(1)
-  os.system('clear') # clear screen
+  #Game Loop
+
+  while True: #not md.won_game(word, correct) and not md.lost_game(incorrect):
+
+    time.sleep(1)
+    os.system('clear') # clear screen
+    md.introduction()
 
   print(md.print_word(word, correct))
   md.print_wrong_guesses(incorrect)  
