@@ -45,8 +45,7 @@ def play_game():
       print(f'Correct word: {word}')
       break
 
-    
-
+  print('Thanks for playing!')
     
 
 play_game()
