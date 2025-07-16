@@ -10,7 +10,7 @@ import os
 #keep track of letters that were guessed in the correct position
 #letters guessed that were in the incorrect position 
 #letters guessed that were not in the word at all.
-
+# https://github.com/Gspidie/SDE2-python-env-starter-GSP/blob/main/ArachnoPhonics%20Game%20Project.py/main.py
 
 
 
@@ -39,7 +39,7 @@ def generate_word():
     wordList = open('.devcontainer/Lesson12/words_for_wordle.txt').read().split()
     word = random.choice(wordList)
     print('Word = ' + '_'*len(word))
-    print(word)  # For debugging purposes, remove this line in final version
+    #print(word)  # For debugging purposes, remove this line in final version
     return word.lower() #lowercase for consistency
 
 
